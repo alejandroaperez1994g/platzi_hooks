@@ -1,9 +1,13 @@
 import "./App.css";
 
+import Yard from "./components/Yard";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello Motherfucker</h1>
+      {/* <Header />
+      <Weather /> */}
+      <Yard />
     </div>
   );
 }
